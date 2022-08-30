@@ -1,5 +1,4 @@
 # BDD
-## Segue 6 aulas nas branchs
 
 O que é BDD (o Behaviour Driven Development)
 - BDD tenta melhorar a comunicação e colaboração.
