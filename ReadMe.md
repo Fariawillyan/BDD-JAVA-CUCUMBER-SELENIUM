@@ -1,4 +1,6 @@
 # BDD
+## Segue 6 aulas nas branchs
+
 O que é BDD (o Behaviour Driven Development)
 - BDD tenta melhorar a comunicação e colaboração.
 - BDD tenta aproximar o negócio e criar um entendimento melhor como a aplicação deveria funcionar.
@@ -7,6 +9,7 @@ O que é BDD (o Behaviour Driven Development)
        - testes de unidade
        - testes de integração
        - testes ponta a ponta (end-to-end)
+
 
 # Cucumber
 não fornece nenhuma ferramenta para efetivamente verificar condições.
@@ -54,4 +57,3 @@ https://cucumber.io/docs/cucumber/checking-assertions/
     não devemos usar Selenium diretamente nas classe de "steps" do Cucumber
     	- O teste, mesmo com Selenium, deve sempre começar a partir de estado "limpo"
     a melhor estrategia de buscar um elemento na interface é usar a ID 
-
