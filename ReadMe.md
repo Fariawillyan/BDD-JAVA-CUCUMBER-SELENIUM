@@ -49,4 +49,9 @@ https://cucumber.io/docs/cucumber/checking-assertions/
         Usados Exemplos para alimentar o mesmo teste com dados diferentes
 	Usado DataTables para passar vários dados ao teste de uma vez só
 
+    O PageObject é um padrão de projeto para encapsular o acesso a uma pagina da aplicação
+        - todo o código especifico da interface com Selenium fica dentro do PageObject
+    não devemos usar Selenium diretamente nas classe de "steps" do Cucumber
+    	- O teste, mesmo com Selenium, deve sempre começar a partir de estado "limpo"
+    a melhor estrategia de buscar um elemento na interface é usar a ID 
 
