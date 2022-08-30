@@ -38,3 +38,12 @@ https://cucumber.io/docs/cucumber/checking-assertions/
         os passos são Given-When-Then ou Dado-Quando-Entao
     cada passo será implementado por um método anotado (step).
 
+    
+        um arquivo .feature pode ter vários cenários e passos (steps)
+    os métodos associado aos passos são reaproveitados entre cenários
+        podemos passar parâmetros do cenário ao método
+    Cucumber possui anotações para inicializar (@Before) e finalizar (@After) o cenários
+        os métodos anotados com @Before e @After são chamados de Hooks
+        cuidado, pois os Hooks não são visíveis no arquivo .feature
+
+
