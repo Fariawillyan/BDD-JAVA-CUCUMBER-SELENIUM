@@ -43,7 +43,10 @@ https://cucumber.io/docs/cucumber/checking-assertions/
     os métodos associado aos passos são reaproveitados entre cenários
         podemos passar parâmetros do cenário ao método
     Cucumber possui anotações para inicializar (@Before) e finalizar (@After) o cenários
-        os métodos anotados com @Before e @After são chamados de Hooks
+        - os métodos anotados com @Before e @After são chamados de Hooks
         cuidado, pois os Hooks não são visíveis no arquivo .feature
+        
+        Usados Exemplos para alimentar o mesmo teste com dados diferentes
+	Usado DataTables para passar vários dados ao teste de uma vez só
 
 
